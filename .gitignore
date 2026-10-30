@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+storage/
+logs/
+metadata.json
+users.json
+nohup.out
+downloads/

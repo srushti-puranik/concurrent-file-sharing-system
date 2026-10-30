@@ -1,0 +1,13 @@
+
+===== RESULTS =====
+Per-client upload speeds (Mbps): h1=3.71, h2=3.81, h3=3.76, h4=3.75, h5=3.78, h6=3.77, h7=3.78, h8=2.35
+Aggregate of survivors: 28.71 Mbps   Jain fairness: 0.983
+[PASS] Eight surviving uploads completed
+[PASS] Surviving files identical to source (SHA-256)
+[PASS] big9.bin was NOT stored
+[PASS] No leftover .tmp_ file
+[PASS] Server logged UPLOAD INTERRUPTED for big9.bin
+[PASS] Intruder refused
+[PASS] Unauthenticated LIST refused
+[PASS] Server still serving after the kill
+[PASS] Fairness among survivors (Jain >= 0.9)
