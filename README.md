@@ -53,4 +53,6 @@ If a run fails with "File exists", run: sudo mn -c
 No encryption. Users are identified by host IP. The controller drives Open vSwitch with ovs-ofctl and a Unix socket, not an OpenFlow controller channel (Ryu is unreliable on Python 3.14). Ping is dropped by the policy. Each performance point is one run on a virtual machine.
 
 ## Team
-Team 19: [member names]
+Team 19: SRUSHTI PURANIK [PES1UG25AM408]
+         SHRITHL S SHETTY [PES1UG25383]
+         VAMSHIK KUDLUR M R [PES1UG25AM436]
