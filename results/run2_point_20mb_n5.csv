@@ -1,0 +1,5 @@
+mode,size_mb,n,direction,mean_mbps,min_mbps,max_mbps,aggregate_mbps,jain,integrity_ok
+nosdn,20,5,upload,28.48,19.08,36.74,95.42,0.942,True
+nosdn,20,5,download,30.39,18.66,46.51,93.29,0.874,True
+sdn,20,5,upload,9.54,9.53,9.58,47.65,1.000,True
+sdn,20,5,download,9.57,9.56,9.57,47.82,1.000,True

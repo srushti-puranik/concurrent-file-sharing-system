@@ -52,7 +52,7 @@ def main():
     ctl = subprocess.Popen(["python3", f"{ROOT}/controller/controller.py", "--quiet"],
                            stdin=subprocess.DEVNULL, stdout=open(f"{ROOT}/logs/controller_hard.log", "w"),
                            stderr=subprocess.STDOUT)
-    for _ in range(50):
+    for _ in range(150):
         if os.path.exists(SOCK): break
         time.sleep(0.2)
     time.sleep(1)

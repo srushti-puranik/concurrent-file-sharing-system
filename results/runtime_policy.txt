@@ -1,6 +1,6 @@
 
 ===== RESULTS =====
-Mean h1 Mbps per phase: normal=6.01  throttled=0.63  unthrottled=6.02  blocked=0.00  unblocked=5.97
+Mean h1 Mbps per phase: normal=9.49  throttled=0.94  unthrottled=9.43  blocked=0.00  unblocked=9.42
 [PASS] Throttle lowers speed (phase 2 < 60% of phase 1 and <= 2 Mbps)
 [PASS] Unthrottle restores speed (phase 3 > 1.5x phase 2)
 [PASS] Block stops traffic (phase 4 < 0.3 Mbps)
