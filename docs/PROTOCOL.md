@@ -24,7 +24,7 @@ Each control message is a 4-byte big-endian length followed by a JSON object (ma
 - TCP connect to port 5000: allowed, 1 Mbps until login.
 - LOGIN success: server tells the controller; limit 10 Mbps (user) or 20 Mbps (admin).
 - 3 failed logins: server tells the controller; host blocked 30 s.
-- Upload and download data: limited by the host's current meter; bytes counted per host.
+- Upload and download data: limited by the host's current OVS queue rate; bytes counted per host.
 - QUIT or disconnect: host back to 1 Mbps.
 
 ## Server to controller
