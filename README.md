@@ -75,5 +75,5 @@ No encryption (passwords travel in clear text). Users are identified by host IP.
 
 ## Team
 Team 19: SRUSHTI PURANIK [PES1UG25AM408]
-         SHRITHL S SHETTY [PES1UG25383]
+         SHRITHL S SHETTY [PES1UG25AM383]
          VAMSHIK KUDLUR M R [PES1UG25AM436]
